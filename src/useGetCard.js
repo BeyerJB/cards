@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import pokemon from 'pokemontcgsdk';
 import CardObject from './CardObject';
-pokemon.configure({ apiKey: 'c24c3969-9bf0-4855-a3ec-af7aff7c0fbb' });
+pokemon.configure({ apiKey: '' });
 
 //Fetch card data and modify loading flag
 const useGetCard = (id) => {
